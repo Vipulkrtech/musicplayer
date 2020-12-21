@@ -1,0 +1,356 @@
+body {
+	background-color: #001a33;
+}
+.fontcolor{
+	color: white;
+}
+.fontstyle{
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+/*header*/
+.header{
+	margin: 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	display: inline-block;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	position: relative;
+}
+.logoname{
+	margin-right: 150px;
+	display: inline-block;
+}
+.logo{
+	display: inline-block;
+}
+.name{
+	display: inline-block;
+}
+.logo img{
+	width: 60px;
+	height: 60px;
+}
+.name h4{
+	line-height: 0.3rem;
+	font-weight: 400;
+	margin-top: 5px;
+}
+.name h4 span{
+	font-size: 1.5rem; 
+}
+.fav{
+	display: inline-block;
+}
+.fav h2{
+	font-weight: 300;
+}
+.searchbar{
+  position: relative;
+  display: flex;
+  min-width: 100px;
+  margin-left: 400px;
+  margin-top: 25px;
+}
+
+.search {
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 25px;
+  width: 100%;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: #f5f5f5;
+}
+
+.search-ico{
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 14px;
+  color: black;
+}
+.notifocationbell{
+	position: relative;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+.bell{
+	color: white;
+	margin-left: 60px;
+	margin-top: 25px;
+	font-size: 2rem;
+}
+.profile{
+	position: relative;
+	display: inline-block;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.profile img{
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+}
+/*body*/
+.bodyy{
+	width: 70%;
+	height: auto;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+.body1{
+	width: 80%;
+	height: 300px;
+	display: inline-block;
+	margin-left: 100px;
+	margin-top: 70px;
+	margin-right: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: relative;
+}
+.image1 img{
+	display: inline-block;
+	width: 30vh;
+	height: 30vh;
+	background-position: all;
+	position: absolute;
+	filter: blur(1px);
+	margin-top: 50px;
+}
+.image2 img{
+	display: inline-block;
+	width: 65%;
+	height: 45vh;
+	background-position: all;
+	position: absolute;
+	margin-left: 100px;
+
+}
+.image3 img{
+	display: inline-block;
+	width: 95%;
+	height: 30vh;
+	background-position: all;
+	position: absolute;
+	margin-top: 50px;
+	filter: blur(1px);
+}
+.icon {
+  color: white;
+  border-radius: 50%;
+  box-shadow: 10px;
+  font-size: 60px;
+  position: absolute;
+  top: 44%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+}
+.image2:hover .icon{
+	color: white;
+	opacity: 1;
+}
+/*latestrelease*/
+.latestrelease{
+	margin-left: 20px;
+	width: 80%;
+	height: auto;
+	display: inline-block;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	position: relative;
+}
+.heading h1{
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: white;
+	display: block;
+	margin-left: 100px;
+
+}
+.heading{
+	display: block;
+}
+.song1{
+	position: relative;
+	display: inline-block;
+	margin: 10px;
+}
+.song2{
+	position: relative;
+	margin: 10px;
+}
+.song3{
+	position: relative;
+	margin: 10px;
+}
+.song4{
+	position: relative;
+	margin: 10px;
+}
+.img1 img{
+	height: 80px;
+	width: 80px;
+}
+.img1{
+	display: inline-block;
+}
+.det1{
+	display: inline-block;
+}
+.det1 h3{
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: white;
+}
+.det1 h5{
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: white;
+}
+/*aside*/
+.sidebody{
+	width: 25%;
+	height: auto;
+    position: absolute;
+    margin: 10px;
+	display: inline-block;
+}
+.sidebody1{
+	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	position: relative;
+}
+.sidehead h1{
+	color: white;
+	font-weight: 500;
+	font-family: "Segoe UI", Arial, sans-serif;
+	display: inline-block;
+}
+.sidehead h3{
+	color: white;
+	font-weight: 300;
+	font-family: "Segoe UI", Arial, sans-serif;
+	display: inline-block;
+	margin-left: 100px;
+}
+.drop{
+	display: inline-block;
+	margin-left: 40px;
+	size: 2rem;
+	background-color: #001a33;
+	font-size: 1rem;
+	color: white;
+	border: 1px solid #001a33;
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+.imgg1 img{
+	height: 45px;
+	width: 45px;
+}
+.dett1{
+	display: inline-block;
+	line-height: 60%;
+	margin-left: 5px; 
+}
+.dett1 h3{
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: white;
+	font-size: 1.2rem;
+}
+.dett1 h5{
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: white;
+	font-size: 0.7rem;
+	font-weight: 200;
+}
+.imgg1 i{
+	font-size: 1.5rem;
+	color: white;
+	margin-left: 140px;
+	position: absolute;
+	margin-top: 25px;
+}
+.imgg1{
+	margin-left: 10px;
+}
+/*bottom*/
+ #bottom1{
+	height: 0;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightgrey;
+     overflow: hidden;
+ }
+ #bottom1:target{
+ 	width: 100%;
+	height: 80px;
+	background-color: #404040;
+	line-height: 60%;
+    position: fixed;
+    top: 87%;
+    margin-left: -3px;
+ }
+#bottom1 img{
+	height: 50px;
+	width: 50px;
+	margin-left: 100px;
+	margin-top: 15px;
+	display: flex;
+	display: inline-block;
+}
+.bottombox{
+	display: inline-block;
+}
+.bottombox h3{
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 300;
+	margin-top: 10px;
+}
+.bottombox h5{
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: white;
+	font-size: 0.7rem;
+	font-weight: 200;
+}
+#bottom2{
+	height: 0;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightgrey;
+     overflow: hidden;
+ }
+ #bottom2:target{
+ 	width: 100%;
+	height: 80px;
+	background-color: #404040;
+	line-height: 60%;
+    position: fixed;
+    top: 87%;
+    margin-left: -3px;
+ }
+#bottom2 img{
+	height: 50px;
+	width: 50px;
+	margin-left: 100px;
+	margin-top: 15px;
+	display: flex;
+	display: inline-block;
+}
